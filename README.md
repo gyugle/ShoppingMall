@@ -15,7 +15,7 @@
 
 크게 3부분으로 나누어 상단의 로고와 중간부분 버튼, 마지막으로 하단에 아이템을 보여주는 화면으로 구성하여 기본적인 레이아웃을 작성하였습니다/
 
-![logo]([logo](https://user-images.githubusercontent.com/42715840/142725818-0a8f46d2-06b7-44c3-b302-8611d0d6d1d7.png)
+![logo](https://user-images.githubusercontent.com/42715840/142725818-0a8f46d2-06b7-44c3-b302-8611d0d6d1d7.png)
 
 
 필터된 이후 모든 아이템을 보여주는 초기상태로 되돌리기 위해 이벤트를 처리했습니다.
