@@ -10,19 +10,23 @@
 
 로고를 눌렀을 때 모든 아이템이 표시되고, 각각의 버튼을 클릭했을 때 해당되는 필터기능을 수행하는 웹페이지입니다.
 
-![layout](layout.png)
+![layout](https://user-images.githubusercontent.com/42715840/142725840-8e2ccbb7-6d0c-46e7-bfa8-cb43c3d7a29b.png)
+
 
 크게 3부분으로 나누어 상단의 로고와 중간부분 버튼, 마지막으로 하단에 아이템을 보여주는 화면으로 구성하여 기본적인 레이아웃을 작성하였습니다/
 
-![logo](logo.png)
+![logo]([logo](https://user-images.githubusercontent.com/42715840/142725818-0a8f46d2-06b7-44c3-b302-8611d0d6d1d7.png)
+
 
 필터된 이후 모든 아이템을 보여주는 초기상태로 되돌리기 위해 이벤트를 처리했습니다.
 
-![btns](btn.png)
+![btn](https://user-images.githubusercontent.com/42715840/142725829-83922181-d1a1-405f-ba5b-ca0ad142cd07.png)
+
 
 옷별, 색깔별 버튼을 만들었고 해당되는 내용으로 필터를 할 수 있도록 이벤트를 처리하였습니다.
 
-![items](itemlist.png)
+![itemlist](https://user-images.githubusercontent.com/42715840/142725833-b00fb50b-bff1-4d66-ae55-a7ee8e2899d3.png)
+
 
 각 기능이 잘 수행되는지 결과를 보여주는 화면
 
