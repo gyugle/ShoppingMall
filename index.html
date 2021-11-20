@@ -1,39 +1,89 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css">
-  <title>Shopping Mall</title>
-</head>
-<body>
-  <!-- Logo -->
-  <img src="imgs/logo.png" alt="Logo">
-  <!-- Buttons -->
-  <Button class="btn" alt="tshirtBtn"><img src="imgs/blue_t.png" alt="tshirt" class="imgBtn"></Button>
-  <Button class="btn" alt="pantsBtn"><img src="imgs/blue_p.png" alt="pants" class="imgBtn"></Button>
-  <Button class="btn" alt="skirtBtn"><img src="imgs/blue_s.png" alt="skirt" class="imgBtn"></Button>
-  <Button class="colorBtn" alt="Blue">BLUE</Button>
-  <Button class="colorBtn" alt="Yellow">YELLOW</Button>
-  <Button class="colorBtn" alt="Pink">PINK</Button>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="src/main.js" defer></script>
+    <title>Shopping Mall</title>
+  </head>
+  <body>
+    <!-- Logo -->
+    <section class="top">
+      <img src="imgs/logo.png" alt="Logo" class="logo" />
+    </section>
+    <!-- Buttons -->
 
-  <!-- Items -->
+    <section class="btns">
+      <button class="btn tshirtBtn" alt="tshirtBtn">
+        <img
+          src="imgs/blue_t.png"
+          alt="tshirt"
+          class="imgBtn"
+          data-key="type"
+          data-value="tshirt"
+        />
+      </button>
+      <button class="btn pantsBtn" alt="pantsBtn">
+        <img
+          src="imgs/blue_p.png"
+          alt="pants"
+          class="imgBtn"
+          data-key="type"
+          data-value="pants"
+        />
+      </button>
+      <button class="btn skirtBtn" alt="skirtBtn">
+        <img
+          src="imgs/blue_s.png"
+          alt="skirt"
+          class="imgBtn"
+          data-key="type"
+          data-value="skirt"
+        />
+      </button>
+      <button
+        class="colorBtn blueBtn"
+        alt="Blue"
+        data-key="color"
+        data-value="blue"
+      >
+        BLUE
+      </button>
+      <button
+        class="colorBtn yellowBtn"
+        alt="Yellow"
+        data-key="color"
+        data-value="yellow"
+      >
+        YELLOW
+      </button>
+      <button
+        class="colorBtn pinkBtn"
+        alt="Pink"
+        data-key="color"
+        data-value="pink"
+      >
+        PINK
+      </button>
+    </section>
 
-  <ul class="items">
-    <li class="item">
-      <img src="imgs/blue_t.png" alt="tshirt" class="item_img">
-      <span class="description">MALE, LARGE</span>
-    </li>
-    <li class="item">
-      <img src="imgs/yellow_s.png" alt="skirt" class="item_img">
-      <span class="description">FEMALE, SMALL</span>
-    </li>
-    <li class="item">
-      <img src="imgs/pink_p.png" alt="pants" class="item_img">
-      <span class="description">MALE, MEDIUM</span>
-    </li>
-  </ul>
+    <!-- Items -->
 
-</body>
+    <ul class="items">
+      <li class="item">
+        <img src="imgs/blue_t.png" alt="tshirt" class="item_img" />
+        <span class="description">MALE, LARGE</span>
+      </li>
+      <li class="item">
+        <img src="imgs/yellow_s.png" alt="skirt" class="item_img" />
+        <span class="description">FEMALE, SMALL</span>
+      </li>
+      <li class="item">
+        <img src="imgs/pink_p.png" alt="pants" class="item_img" />
+        <span class="description">MALE, MEDIUM</span>
+      </li>
+    </ul>
+  </body>
 </html>
